@@ -1,3 +1,15 @@
 :root {
-    --clr-neutral-100: hsl(120%, 4, 3);s
+    --clr-neutral-100: hsl(120, 4%, 59%);
+}
+
+.container {
+    padding: 10em;
+
+}
+
+.wrapper {
+    background-color: var(--clr-neutral-100);
+    width: 100%;
+    height: auto;
+    padding: 4em;
 }
